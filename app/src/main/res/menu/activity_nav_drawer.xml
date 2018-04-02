@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item android:title="Japanese Culture">
+        <menu>
+            <item
+                android:id="@+id/a"
+                android:icon="@drawable/ic_translate"
+                android:title="Anime and Manga" />
+            <item
+                android:id="@+id/c"
+                android:icon="@drawable/ic_translate"
+                android:title="Anime/Cute" />
+            <item
+                android:id="@+id/w"
+                android:icon="@drawable/ic_translate"
+                android:title="Anime/Wallpapers" />
+            <item
+                android:id="@+id/m"
+                android:icon="@drawable/ic_translate"
+                android:title="Mecha" />
+            <item
+                android:id="@+id/cgl"
+                android:icon="@drawable/ic_translate"
+                android:title="Cosplay and EGL" />
+            <item
+                android:id="@+id/cm"
+                android:icon="@drawable/ic_translate"
+                android:title="Cute/Male" />
+            <item
+                android:id="@+id/f"
+                android:icon="@drawable/ic_translate"
+                android:title="Flash" />
+            <item
+                android:id="@+id/n"
+                android:icon="@drawable/ic_translate"
+                android:title="Transportation" />
+            <item
+                android:id="@+id/jp"
+                android:icon="@drawable/ic_translate"
+                android:title="Otaku Culture" />
+
+        </menu>
+    </item>
+
+    <item android:title="Videogames">
+        <menu>
+            <item
+                android:id="@+id/v"
+                android:icon="@drawable/ic_videogame_asset"
+                android:title="Video Games" />
+            <item
+                android:id="@+id/vg"
+                android:icon="@drawable/ic_videogame_asset"
+                android:title="Video Game General" />
+            <item
+                android:id="@+id/vp"
+                android:icon="@drawable/ic_videogame_asset"
+                android:title="Pokemon" />
+            <item
+                android:id="@+id/vr"
+                android:icon="@drawable/ic_videogame_asset"
+                android:title="Retro Games" />
+        </menu>
+    </item>
+
+    <item android:title="Interest">
+        <menu>
+            <item
+                android:id="@+id/co"
+                android:icon="@drawable/ic_people"
+                android:title="Comics and Cartoons" />
+            <item
+                android:id="@+id/g"
+                android:icon="@drawable/ic_people"
+                android:title="Tecnology" />
+            <item
+                android:id="@+id/tv"
+                android:icon="@drawable/ic_people"
+                android:title="Television and Film" />
+            <item
+                android:id="@+id/k"
+                android:icon="@drawable/ic_people"
+                android:title="Weapons" />
+            <item
+                android:id="@+id/o"
+                android:icon="@drawable/ic_people"
+                android:title="Auto" />
+            <item
+                android:id="@+id/an"
+                android:icon="@drawable/ic_people"
+                android:title="Animals and Nature" />
+            <item
+                android:id="@+id/tg"
+                android:icon="@drawable/ic_people"
+                android:title="Traditional Games" />
+            <item
+                android:id="@+id/sp"
+                android:icon="@drawable/ic_people"
+                android:title="Sports" />
+            <item
+                android:id="@+id/asp"
+                android:icon="@drawable/ic_people"
+                android:title="Alternative Sports" />
+            <item
+                android:id="@+id/sci"
+                android:icon="@drawable/ic_people"
+                android:title="Science and Math" />
+            <item
+                android:id="@+id/his"
+                android:icon="@drawable/ic_people"
+                android:title="History and Humanities" />
+            <item
+                android:id="@+id/Int"
+                android:icon="@drawable/ic_people"
+                android:title="International" />
+            <item
+                android:id="@+id/out"
+                android:icon="@drawable/ic_people"
+                android:title="Outside" />
+            <item
+                android:id="@+id/toy"
+                android:icon="@drawable/ic_people"
+                android:title="Toys" />
+        </menu>
+    </item>
+
+    <item android:title="Creative">
+        <menu>
+            <item
+                android:id="@+id/i"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Oekaki" />
+            <item
+                android:id="@+id/po"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Pepercraft and Origami" />
+            <item
+                android:id="@+id/p"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Photography" />
+            <item
+                android:id="@+id/ck"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Food and Cooking" />
+            <item
+                android:id="@+id/ic"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Artwork/Critique" />
+            <item
+                android:id="@+id/wg"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Wallpapers/General" />
+            <item
+                android:id="@+id/lit"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Literature" />
+            <item
+                android:id="@+id/mu"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Music" />
+            <item
+                android:id="@+id/fa"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Fashion" />
+            <item
+                android:id="@+id/three"
+                android:icon="@drawable/ic_color_lens"
+                android:title="3DCG" />
+            <item
+                android:id="@+id/gd"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Graphic Design" />
+            <item
+                android:id="@+id/diy"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Do It Yourself" />
+            <item
+                android:id="@+id/wsg"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Worksafe GIF" />
+            <item
+                android:id="@+id/qst"
+                android:icon="@drawable/ic_color_lens"
+                android:title="Quest" />
+        </menu>
+    </item>
+
+    <item android:title="Other" >
+        <menu>
+            <item
+                android:id="@+id/biz"
+                android:icon="@drawable/ic_star"
+                android:title="Business and Finance" />
+            <item
+                android:id="@+id/trv"
+                android:icon="@drawable/ic_star"
+                android:title="Travel" />
+            <item
+                android:id="@+id/fit"
+                android:icon="@drawable/ic_star"
+                android:title="Fitness" />
+            <item
+                android:id="@+id/x"
+                android:icon="@drawable/ic_star"
+                android:title="Paranormal" />
+            <item
+                android:id="@+id/adv"
+                android:icon="@drawable/ic_star"
+                android:title="Advice" />
+            <item
+                android:id="@+id/lgbt"
+                android:icon="@drawable/ic_star"
+                android:title="LGBT" />
+            <item
+                android:id="@+id/mlp"
+                android:icon="@drawable/ic_star"
+                android:title="Pony" />
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/ic_star"
+                android:title="Current News" />
+            <item
+                android:id="@+id/wsr"
+                android:icon="@drawable/ic_star"
+                android:title="Worksafe Request" />
+            <item
+                android:id="@+id/vip"
+                android:icon="@drawable/ic_star"
+                android:title="Very Important Post" />
+
+        </menu>
+    </item>
+
+</menu>

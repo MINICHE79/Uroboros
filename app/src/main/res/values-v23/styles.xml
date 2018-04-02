@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbar" parent="AppTheme">
+        <item name="android:background">@color/menu</item>
+        <item name="android:titleTextColor">@color/titulo</item>
+    </style>
+</resources>
