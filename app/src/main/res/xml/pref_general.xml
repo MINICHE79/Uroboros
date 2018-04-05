@@ -1,33 +1,293 @@
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/ic_translate">
 
-    <SwitchPreference
-        android:defaultValue="true"
-        android:key="example_switch"
-        android:summary="@string/pref_description_social_recommendations"
-        android:title="@string/pref_title_social_recommendations" />
+    <!-- Japanese Culture Boards -->
 
-    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
-    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
-    <EditTextPreference
-        android:capitalize="words"
-        android:defaultValue="@string/pref_default_display_name"
-        android:inputType="textCapWords"
-        android:key="example_text"
-        android:maxLines="1"
-        android:selectAllOnFocus="true"
-        android:singleLine="true"
-        android:title="@string/pref_title_display_name" />
 
-    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
-         dismiss it. -->
-    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
     <ListPreference
-        android:defaultValue="-1"
-        android:entries="@array/pref_example_list_titles"
-        android:entryValues="@array/pref_example_list_values"
-        android:key="example_list"
-        android:negativeButtonText="@null"
-        android:positiveButtonText="@null"
-        android:title="@string/pref_title_add_friends_to_messages" />
+        android:summary="Select a board"
+        android:defaultValue="/a/"
+        android:entries="@array/boards"
+        android:entryValues="@array/threads"
+        android:key="InitialBoard"
+        android:title="Initial Board" />
+
+    <PreferenceCategory android:title="Japanese Culture">
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="AnimeManga"
+            android:title="Anime and Manga" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="AnimeCute"
+            android:title="Anime/Cute" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="AnimeWallpapers"
+            android:title="Anime/Wallpapers" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Mecha"
+            android:title="Mecha" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Cosplay"
+            android:title="Cosplay and EGL" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="CuteMale"
+            android:title="Cute/Male" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Transp"
+            android:title="Transportation" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="OtakuCulture"
+            android:title="Anime/Cute" />
+
+    </PreferenceCategory>
+
+    <!-- Video Games Boards -->
+
+    <PreferenceCategory android:title="Video Games">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Videogames"
+            android:title="Video Games" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="VideogamesG"
+            android:title="Video game General" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Pokemon"
+            android:title="Pokemon" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="RetroG"
+            android:title="Retro Games" />
+
+    </PreferenceCategory>
+
+    <!-- Interest Boards -->
+
+    <PreferenceCategory android:title="Interest">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Comics"
+            android:title="Comics and Cartoon" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Technology"
+            android:title="Technology" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="TV"
+            android:title="Television and Films" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Weapons"
+            android:title="Weapons" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Auto"
+            android:title="Auto" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Animals"
+            android:title="Animals and Nature" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="TraditionalG"
+            android:title="Traditional Games" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Sports"
+            android:title="Sports" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="ASports"
+            android:title="Alternative Sports" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="ScienceMath"
+            android:title="Science and Math" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="History"
+            android:title="History and Humanities" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="International"
+            android:title="International" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Outside"
+            android:title="Outside" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Toys"
+            android:title="Toys" />
+
+    </PreferenceCategory>
+
+    <!-- Creative Boards -->
+
+    <PreferenceCategory android:title="Creative">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Oekaki"
+            android:title="Oekaki" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Papercraft"
+            android:title="Papercraft and Origami" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Photography"
+            android:title="Photography" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Food"
+            android:title="Food and Cooking" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Artwork"
+            android:title="Artwork/Critique" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Wallpapers"
+            android:title="Wallpapers/General" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Literature"
+            android:title="Literature" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Music"
+            android:title="Music" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Fashion"
+            android:title="Fashion" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="3DCG"
+            android:title="3DCG" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="GraphicDesign"
+            android:title="Graphic Design" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="DoIt"
+            android:title="Do It Yourself" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="WorksafeGIF"
+            android:title="Worksafe GIF" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Quest"
+            android:title="Quest" />
+
+    </PreferenceCategory>
+
+    <!-- Other Boards -->
+
+    <PreferenceCategory android:title="Other">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Business"
+            android:title="Business and Finance" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Travel"
+            android:title="Travel" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Fitness"
+            android:title="Fitness" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Paranormal"
+            android:title="Paranormal" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Advice"
+            android:title="Advice" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="LGBT"
+            android:title="LGBT" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Pony"
+            android:title="Pony" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="News"
+            android:title="Current News" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="WorksafeReq"
+            android:title="Worksafe Request" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="VIP"
+            android:title="Very Important Post" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

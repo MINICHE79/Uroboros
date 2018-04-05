@@ -31,10 +31,6 @@
                 android:icon="@drawable/ic_translate"
                 android:title="Cute/Male" />
             <item
-                android:id="@+id/f"
-                android:icon="@drawable/ic_translate"
-                android:title="Flash" />
-            <item
                 android:id="@+id/n"
                 android:icon="@drawable/ic_translate"
                 android:title="Transportation" />
@@ -76,7 +72,7 @@
             <item
                 android:id="@+id/g"
                 android:icon="@drawable/ic_people"
-                android:title="Tecnology" />
+                android:title="Technology" />
             <item
                 android:id="@+id/tv"
                 android:icon="@drawable/ic_people"

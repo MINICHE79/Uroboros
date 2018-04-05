@@ -2,59 +2,115 @@
     <string name="app_name">Uroboros</string>
     <string name="action_settings">Sign Out</string>
 
+    <string name="adsId">ca-app-pub-5389408632139483~8014185921</string>
+    <string name="adPrincipal">ca-app-pub-5389408632139483/5856718459</string>
+
     <string-array name="threads">
         <item>/a/</item>
         <item>/c/</item>
-        <item>/g/</item>
-        <item>/k/</item>
+        <item>/w/</item>
         <item>/m/</item>
-        <item>/o/</item>
-        <item>/p/</item>
+        <item>/cgl/</item>
+        <item>/cm/</item>
+        <item>/n/</item>
+        <item>/jp/</item>
         <item>/v/</item>
         <item>/vg/</item>
+        <item>/vp/</item>
         <item>/vr/</item>
-        <item>/w/</item>
-        <item>/wg/</item>
-        <item>/i/</item>
-        <item>/ic/</item>
-        <item>/vip/</item>
-        <item>/qa/</item>
-        <item>/cm/</item>
-        <item>/lgbt/</item>
-        <item>/3/</item>
-        <item>/adv/</item>
-        <item>/an/</item>
-        <item>/asp/</item>
-        <item>/biz/</item>
-        <item>/cgl/</item>
-        <item>/ck/</item>
         <item>/co/</item>
-        <item>/diy/</item>
-        <item>/fa/</item>
-        <item>/fit/</item>
-        <item>/gd/</item>
+        <item>/g/</item>
+        <item>/tv/</item>
+        <item>/k/</item>
+        <item>/o/</item>
+        <item>/an/</item>
+        <item>/tg/</item>
+        <item>/sp/</item>
+        <item>/asp/</item>
+        <item>/sci/</item>
         <item>/his/</item>
         <item>/int/</item>
-        <item>/jp/</item>
-        <item>/lit/</item>
-        <item>/mlp/</item>
-        <item>/mu/</item>
-        <item>/n/</item>
-        <item>/news/</item>
         <item>/out/</item>
-        <item>/po/</item>
-        <item>/qst/</item>
-        <item>/sci/</item>
-        <item>/sp/</item>
-        <item>/tg/</item>
         <item>/toy/</item>
-        <item>/trv/</item>
-        <item>/tv/</item>
-        <item>/vp/</item>
+        <item>/i/</item>
+        <item>/po/</item>
+        <item>/p/</item>
+        <item>/ck/</item>
+        <item>/ic/</item>
+        <item>/wg/</item>
+        <item>/lit/</item>
+        <item>/mu/</item>
+        <item>/fa/</item>
+        <item>/3/</item>
+        <item>/gd/</item>
+        <item>/diy/</item>
         <item>/wsg/</item>
-        <item>/wsr/</item>
+        <item>/qst/</item>
+        <item>/biz/</item>
+        <item>/trv/</item>
+        <item>/fit/</item>
         <item>/x/</item>
+        <item>/adv/</item>
+        <item>/lgbt/</item>
+        <item>/mlp/</item>
+        <item>/news/</item>
+        <item>/wsr/</item>
+        <item>/vip/</item>
     </string-array>
+
+    <string-array name="boards">
+        <item>Anime and Manga</item>
+        <item>Anime/Cute</item>
+        <item>Anime/Wallpapers</item>
+        <item>Mecha</item>
+        <item>Cosplay and EGL</item>
+        <item>Cute/Male</item>
+        <item>Transportation</item>
+        <item>Otaku Culture</item>
+        <item>Video Games</item>
+        <item>Video Game General</item>
+        <item>Pokemon</item>
+        <item>Retro Games</item>
+        <item>Comics and Cartoons</item>
+        <item>Technology</item>
+        <item>Television and Film</item>
+        <item>Weapons</item>
+        <item>Auto</item>
+        <item>Animals and Nature</item>
+        <item>Traditional Games</item>
+        <item>Sports</item>
+        <item>Alternative Sports</item>
+        <item>Science and Math</item>
+        <item>History and Humanities</item>
+        <item>International</item>
+        <item>Outdoors</item>
+        <item>Toys</item>
+        <item>Oekaki</item>
+        <item>Papercraft and Origami</item>
+        <item>Photography</item>
+        <item>Food and Cooking</item>
+        <item>Artwork/Critique</item>
+        <item>Wallpapers/General</item>
+        <item>Literature</item>
+        <item>Music</item>
+        <item>Fashion</item>
+        <item>3DCG</item>
+        <item>Graphic Design</item>
+        <item>Do-It-Yourself</item>
+        <item>Worksafe GIF</item>
+        <item>Quests</item>
+        <item>Business and Finance</item>
+        <item>Travel</item>
+        <item>Fitness</item>
+        <item>Paranormal</item>
+        <item>Advice</item>Worksafe Requests
+        <item>LGBT</item>
+        <item>Pony</item>
+        <item>Current News</item>
+        <item>Worksafe Requests</item>
+        <item>Very Important Posts</item>
+    </string-array>
+
     <string name="loading">Loading…</string>
     <string name="log_error_occurred">"Error occurred: "</string>
     <string name="drawer_open">Open</string>
